@@ -18,11 +18,10 @@ def diabetes_prediction(input_data):
     print(prediction)
     print("---------------------------------------------------")
 
-    if[prediction]==0:
+    if prediction[0]==0:
         return "the person is not diabetic"
     else:
         return "the person is diabetic"
-print("---------------------------------------------------")
 
    
 
