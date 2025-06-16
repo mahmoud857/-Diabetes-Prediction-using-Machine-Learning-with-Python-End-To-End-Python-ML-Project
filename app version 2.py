@@ -31,7 +31,7 @@ print("---------------------------------------------------")
 
 def main():
 
-    img=Image.open("F:\ماشين ليرنج\مشاريع ماشين ليرنج end to end\Project 2 Diabetes Prediction using Machine Learning with Python  End To End Python ML Project\img.png")
+    img=Image.open("img.png")
     streamlit.image(img, caption="Welcome To Diabetes Prediction App", use_container_width=True)
 
     streamlit.title("")
