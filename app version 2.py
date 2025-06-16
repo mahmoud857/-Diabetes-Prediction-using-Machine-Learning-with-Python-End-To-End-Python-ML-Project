@@ -4,7 +4,7 @@ import streamlit
 from PIL import Image 
 
 
-loading_model=joblib.load(open("F:\ماشين ليرنج\مشاريع ماشين ليرنج end to end\Project 2 Diabetes Prediction using Machine Learning with Python  End To End Python ML Project\diabetes_model.joblib","rb"))
+loading_model=joblib.load(open("diabetes_model.joblib","rb"))
 
 
 def diabetes_prediction(input_data):
